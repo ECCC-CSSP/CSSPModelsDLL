@@ -17,29 +17,6 @@ namespace CSSPModelsDLL.Models
         public string SubsectorHistoricKey { get; set; }
         public string SubsectorDesc { get; set; }
         public string TideLocationSIDText { get; set; }
-        public Nullable<float> RainDay0Limit { get; set; }
-        public Nullable<float> RainDay1Limit { get; set; }
-        public Nullable<float> RainDay2Limit { get; set; }
-        public Nullable<float> RainDay3Limit { get; set; }
-        public Nullable<float> RainDay4Limit { get; set; }
-        public Nullable<float> RainDay5Limit { get; set; }
-        public Nullable<float> RainDay6Limit { get; set; }
-        public Nullable<float> RainDay7Limit { get; set; }
-        public Nullable<float> RainDay8Limit { get; set; }
-        public Nullable<float> RainDay9Limit { get; set; }
-        public Nullable<float> RainDay10Limit { get; set; }
-        public Nullable<DateTime> IncludeRainStartDate { get; set; }
-        public Nullable<DateTime> IncludeRainEndDate { get; set; }
-        public Nullable<int> IncludeRainRunCount { get; set; }
-        public Nullable<bool> IncludeRainSelectFullYear { get; set; }
-        public Nullable<DateTime> NoRainStartDate { get; set; }
-        public Nullable<DateTime> NoRainEndDate { get; set; }
-        public Nullable<int> NoRainRunCount { get; set; }
-        public Nullable<bool> NoRainSelectFullYear { get; set; }
-        public Nullable<DateTime> OnlyRainStartDate { get; set; }
-        public Nullable<DateTime> OnlyRainEndDate { get; set; }
-        public Nullable<int> OnlyRainRunCount { get; set; }
-        public Nullable<bool> OnlyRainSelectFullYear { get; set; }
     }
 
     public class MWQMSubsectorAnalysisModel

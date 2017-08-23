@@ -13,10 +13,10 @@ namespace CSSPModelsDLL.Models
         }
         public int RainExceedanceID { get; set; }
         public bool YearRound { get; set; }
-        public Nullable<DateTime> StartDate { get; set; }
-        public Nullable<DateTime> EndDate { get; set; }
-        public Nullable<float> RainMaximum { get; set; }
-        public Nullable<float> RainExtreme { get; set; }
+        public Nullable<DateTime> StartDate_Local { get; set; }
+        public Nullable<DateTime> EndDate_Local { get; set; }
+        public Nullable<float> RainMaximum_mm { get; set; }
+        public Nullable<float> RainExtreme_mm { get; set; }
         public int DaysPriorToStart { get; set; }
         public bool RepeatEveryYear { get; set; }
         public string ProvinceTVItemIDs { get; set; }

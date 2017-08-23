@@ -51,7 +51,9 @@
     <Compile Include="Models\AppTaskLanguageModel.cs" />
     <Compile Include="Models\AppTaskModel.cs" />
     <Compile Include="Models\AspNetUserModel.cs" />
+    <Compile Include="Models\EmailDistributionListContactLanguageModel.cs" />
     <Compile Include="Models\EmailDistributionListContactModel.cs" />
+    <Compile Include="Models\EmailDistributionListLanguageModel.cs" />
     <Compile Include="Models\EmailDistributionListModel.cs" />
     <Compile Include="Models\LogModel.cs" />
     <Compile Include="Models\RainExceedance.cs" />
