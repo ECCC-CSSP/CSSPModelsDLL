@@ -16,6 +16,8 @@ namespace CSSPModelsDLL.Models
         public int MWQMSubsectorID { get; set; }
         public LanguageEnum Language { get; set; }
         public string SubsectorDesc { get; set; }
-        public TranslationStatusEnum TranslationStatus { get; set; }
+        public TranslationStatusEnum SubsectorDescTranslationStatus { get; set; }
+        public string LogBook { get; set; }
+        public TranslationStatusEnum LogBookTranslationStatus { get; set; }
     }
 }
