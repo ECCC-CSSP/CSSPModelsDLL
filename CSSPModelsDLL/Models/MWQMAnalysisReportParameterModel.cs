@@ -15,7 +15,7 @@ namespace CSSPModelsDLL.Models
         public int MWQMAnalysisReportParameterID { get; set; }
         public int SubsectorTVItemID { get; set; }
         public string AnalysisName { get; set; }
-        public int AnalysisReportYear { get; set; }
+        public int? AnalysisReportYear { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public AnalysisCalculationTypeEnum AnalysisCalculationType { get; set; }
