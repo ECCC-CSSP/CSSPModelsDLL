@@ -33,6 +33,7 @@ namespace CSSPModelsDLL.Models
         public int WetLimit72h { get; set; }
         public int WetLimit96h { get; set; }
         public string RunsToOmit { get; set; }
+        public string ShowDataTypes { get; set; }
         public int? ExcelTVFileTVItemID { get; set; }
         public string ExcelTVFileTVText { get; set; }
         public AnalysisReportExportCommandEnum Command { get; set; }
