@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
         }
         public int ReportTypeID { get; set; }
         public TVTypeEnum TVType { get; set; }
+        public FileTypeEnum FileType { get; set; }
         public string UniqueCode { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
