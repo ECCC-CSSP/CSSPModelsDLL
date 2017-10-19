@@ -50,6 +50,7 @@ namespace CSSPModelsDLL.Models
 
         public string Error { get; set; }
         public string FullDesc { get; set; }
+        public string Parameters { get; set; }
         public LanguageEnum Language { get; set; }
     }
     public class TVItemMoreInfoInfrastructureModel
