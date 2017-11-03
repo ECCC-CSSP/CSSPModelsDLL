@@ -79,6 +79,11 @@ namespace CSSPModelsDLL.Models
         public float Lng { get; set; }
         public int Ordinal { get; set; }
     }
+    public class CoordMap
+    {
+        public Coord SouthWest { get; set; }
+        public Coord NorthEast { get; set; }
+    }
     public class CoordModel
     {
         public string Error { get; set; }

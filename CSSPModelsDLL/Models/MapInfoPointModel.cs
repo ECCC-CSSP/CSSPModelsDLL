@@ -16,5 +16,6 @@ namespace CSSPModelsDLL.Models
         public int Ordinal { get; set; }
         public double Lat { get; set; }
         public double Lng { get; set; }
+        public int TVItemID { get; set; }
     }
 }

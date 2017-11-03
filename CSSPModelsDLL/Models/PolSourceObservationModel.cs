@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
         }
         public int PolSourceObservationID { get; set; }
         public int PolSourceSiteID { get; set; }
+        public int PolSourceSiteTVItemID { get; set; }
         public string PolSourceSiteTVText { get; set; }
         public System.DateTime ObservationDate_Local { get; set; }
         public string Observation_ToBeDeleted { get; set; }
