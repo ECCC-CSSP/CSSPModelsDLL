@@ -207,6 +207,18 @@ namespace CSSPModelsDLL.Models
         public string Error { get; set; }
         public string Summary { get; set; }
     }
+    public class LabelPosition
+    {
+        public Coord SitePoint { get; set; }
+        public Coord LabelPoint { get; set; }
+        public PositionEnum Position { get; set; }
+        public Coord LabelNorthEast { get; set; }
+        public Coord LabelSouthWest { get; set; }
+        public float Distance { get; set; }
+        public int Ordinal { get; set; }
+        public MapInfoPointModel MapInfoPointModel { get; set; }
+
+    }
     public class LabSheetA1Sheet
     {
         public LabSheetA1Sheet()
