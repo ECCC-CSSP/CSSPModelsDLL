@@ -209,6 +209,7 @@ namespace CSSPModelsDLL.Models
     }
     public class LabelPosition
     {
+        public int TVItemID { get; set; }
         public Coord SitePoint { get; set; }
         public Coord LabelPoint { get; set; }
         public PositionEnum Position { get; set; }
