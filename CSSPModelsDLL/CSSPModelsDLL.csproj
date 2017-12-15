@@ -55,7 +55,9 @@
     <Compile Include="Models\EmailDistributionListContactModel.cs" />
     <Compile Include="Models\EmailDistributionListLanguageModel.cs" />
     <Compile Include="Models\EmailDistributionListModel.cs" />
+    <Compile Include="Models\ReportSectionLanguageModel.cs" />
     <Compile Include="Models\ReportTypeLanguageModel.cs" />
+    <Compile Include="Models\ReportSectionModel.cs" />
     <Compile Include="Models\ReportTypeModel.cs" />
     <Compile Include="Models\LogModel.cs" />
     <Compile Include="Models\MWQMAnalysisReportParameterModel.cs" />
