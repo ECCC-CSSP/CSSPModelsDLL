@@ -467,6 +467,11 @@ namespace CSSPModelsDLL.Models
         public string Text { get; set; }
         public int ID { get; set; }
     }
+    public class PolSourceObsInfoEnumHideAndID
+    {
+        public string Hide { get; set; }
+        public int ID { get; set; }
+    }
     public class PolSourceObsInfoEnumTextAndID
     {
         public string Text { get; set; }

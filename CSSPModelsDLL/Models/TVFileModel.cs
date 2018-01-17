@@ -17,6 +17,7 @@ namespace CSSPModelsDLL.Models
         public TVTypeEnum TemplateTVType { get; set; }
         public int? ReportTypeID { get; set; }
         public string Parameters { get; set; }
+        public int? Year { get; set; }
         public string TVFileTVText { get; set; }
         public LanguageEnum Language { get; set; }
         public FilePurposeEnum FilePurpose { get; set; }
