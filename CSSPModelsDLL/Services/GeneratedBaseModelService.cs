@@ -2653,7 +2653,12 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.DiameterInCentimetersLessThan30, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.DiameterInCentimetersEqual15, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.PipeFlowStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.DiameterInCentimetersEqual30, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.PipeFlowStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -2694,7 +2699,7 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.DiameterNoInformation, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.PipeFlowStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.PathwayRouteSecondPipeStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
