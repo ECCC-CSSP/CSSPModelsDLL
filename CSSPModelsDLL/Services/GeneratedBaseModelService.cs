@@ -393,8 +393,8 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.ShelterStart, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShelterStart,
+                PolSourceObsInfo = PolSourceObsInfoEnum.FetchStart, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FetchStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
@@ -934,6 +934,16 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.HumanLocationFloatHomeCommunity, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SourcesOfContaminantStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.HumanLocationMarinaLand, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SourcesOfContaminantStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.HumanLocationShorelineLand, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SourcesOfContaminantStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -2439,7 +2449,7 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.PathWayInActive, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ImpactRatingStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.StatusStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
@@ -2619,6 +2629,11 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.AreaSlopeMediumVegetated, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShorelineRiparionZoneStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.AreaSlopeHighVegetated, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShorelineRiparionZoneStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3188,43 +3203,53 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.DepthUnknown, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeDeepDefinite, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShelterStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FetchStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallDeepDefinite, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShelterStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FetchStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeShallowDefinite, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShelterStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FetchStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallShallowDefinite, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShelterStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FetchStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeDeepPotential, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShelterStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FetchStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallDeepPotential, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShelterStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FetchStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeShallowPotential, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShelterStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FetchStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallShallowPotential, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ShelterStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FetchStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.TidalUnknown, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
@@ -3308,22 +3333,7 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters5, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters10, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters20, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters30, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.ShelterUnknown, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3343,12 +3353,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters300, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters400, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters500, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters600, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters700, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters800, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters900, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3368,26 +3403,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet5, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet10, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet20, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet30, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet50, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -3403,12 +3418,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet300, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet400, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet500, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet600, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet700, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet800, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet900, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3428,26 +3468,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet5, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet10, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet20, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet30, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet50, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -3463,12 +3483,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet300, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet400, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet500, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet600, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet700, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet800, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet900, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3488,26 +3533,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet5, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet10, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet20, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet30, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet50, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -3523,12 +3548,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet300, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet400, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet500, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet600, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet700, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet800, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet900, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3548,26 +3598,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet5, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet10, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet20, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet30, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet50, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -3583,12 +3613,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet300, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet400, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet500, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet600, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet700, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet800, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet900, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3608,26 +3663,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet5, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet10, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet20, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet30, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet50, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -3643,12 +3678,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet300, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet400, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet500, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet600, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet700, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet800, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet900, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3668,26 +3728,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet5, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet10, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet20, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet30, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet50, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -3703,12 +3743,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet300, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet400, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet500, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet600, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet700, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet800, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet900, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3728,26 +3793,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet5, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet10, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet20, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet30, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet50, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -3763,12 +3808,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet300, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet400, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet500, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet600, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet700, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet800, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet900, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3803,7 +3873,7 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.SuggestedRiskFollowupInfoRequired, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.SuggestedRiskInfoRequired, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ConfirmationOfHighStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3818,7 +3888,7 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.RiskHighSuggest, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.RiskHighNotConfirmed, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ConfirmationOfHighStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3830,26 +3900,6 @@ namespace CSSPModelsDLL.Services
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.RishHighConfirmedWater, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ConfirmationOfHighStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters5Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters10Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters20Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters30Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
@@ -3868,12 +3918,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters300Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters400Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters500Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters600Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters700Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters800Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncTidalLarDeDistToGrowAreaInMeters900Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3893,26 +3968,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet5Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet10Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet20Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet30Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet50Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -3928,12 +3983,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet300Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet400Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet500Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet600Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet700Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet800Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet900Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3953,26 +4033,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet5Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet10Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet20Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet30Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet50Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -3988,12 +4048,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet300Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet400Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet500Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet600Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet700Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet800Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EncloTidalSmDeDistToGrowAreaInMet900Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -4013,26 +4098,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet5Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet10Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet20Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet30Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet50Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -4048,12 +4113,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet300Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet400Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet500Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet600Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet700Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet800Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidSmDeDistToGrowAreaInMet900Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -4073,26 +4163,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet5Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet10Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet20Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet30Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet50Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -4108,12 +4178,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet300Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet400Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet500Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet600Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet700Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet800Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalLgShalDistToGrowAreaInMet900Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -4133,26 +4228,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet5Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet10Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet20Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet30Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet50Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -4168,12 +4243,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet300Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet400Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet500Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet600Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet700Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet800Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpenTidalLgShalSeaDistToGrowAreaInMet900Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -4193,26 +4293,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet5Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet10Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet20Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet30Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet50Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -4228,12 +4308,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet300Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet400Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet500Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet600Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet700Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet800Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.EnclTidalSmShalSeaDistToGrAreaInMet900Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -4253,26 +4358,6 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet5Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet10Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet20Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet30Pot, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet50Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
@@ -4288,12 +4373,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet300Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet400Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet500Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet600Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet700Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet800Pot, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.OpTidalSmShalDistToGrowAreaInMet900Pot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
