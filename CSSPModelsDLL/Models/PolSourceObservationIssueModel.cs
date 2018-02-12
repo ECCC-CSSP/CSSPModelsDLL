@@ -17,6 +17,7 @@ namespace CSSPModelsDLL.Models
         public int PolSourceObservationID { get; set; }
         public string ObservationInfo { get; set; }
         public int Ordinal { get; set; }
+        public string ExtraComment { get; set; }
         public List<PolSourceObsInfoEnum> PolSourceObsInfoList { get; set; }
     }
 }
