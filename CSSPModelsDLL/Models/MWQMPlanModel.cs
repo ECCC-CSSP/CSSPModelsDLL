@@ -31,6 +31,9 @@ namespace CSSPModelsDLL.Models
         public bool IncludeLaboratoryQAQC { get; set; }
         public string ApprovalCode { get; set; }
         public int? SamplingPlanFileTVItemID { get; set; }
+        public AnalyzeMethodEnum? AnalyzeMethodDefault { get; set; }
+        public SampleMatrixEnum? SampleMatrixDefault { get; set; }
+        public LaboratoryEnum? LaboratoryDefault { get; set; }
         public List<SamplingPlanSubsectorModel> SamplingPlanSubsectorModelList { get; set; }
     }
 
