@@ -408,8 +408,8 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart,
+                PolSourceObsInfo = PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
@@ -4534,17 +4534,17 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.StatusDefiniteHi, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.StatusPotentialHi, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.StatusDefiniteMed, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
@@ -4573,22 +4573,22 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.DepthDeepHiDef, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.DepthDeepDef, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalAmplitudeStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.DepthShallowHiDef, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.DepthShallowDef, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalAmplitudeStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.DepthDeepHiPot, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.DepthDeepPot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalAmplitudeStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.DepthShallowHiPot, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.DepthShallowPot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalAmplitudeStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -4598,42 +4598,42 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeDeepHiDef, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeDeepDef, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalLargeDeepStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeDeepHiPot, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeDeepPot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalLargeDeepStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallDeepHiDef, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallDeepDef, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalSmallDeepStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallDeepHiPot, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallDeepPot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalSmallDeepStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeshallowHiDef, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeshallowDef, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalLgShallowStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeShallowHiPot, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.TidalLargeShallowPot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalLgShallowStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallShallowHiDef, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallShallowDef, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalSmallShallowStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallShallowHiPot, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.TidalSmallShallowPot, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.TidalSmallShallowStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
