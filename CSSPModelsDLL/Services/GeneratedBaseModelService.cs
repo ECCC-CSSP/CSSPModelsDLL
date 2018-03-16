@@ -2458,6 +2458,11 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.PathWayStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.SourcesOfContaminantRunoff, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SewageStart,
             });
@@ -2589,6 +2594,11 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.SewageRetentionTankMarine, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ObservationHazardousLevelStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.SewageMixedMarine, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.ObservationHazardousLevelStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -2880,6 +2890,11 @@ namespace CSSPModelsDLL.Services
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityOFFSITE, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.StatusStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.PathwaySourceFirstMixesMARINE, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SecondaryHazardousLevelStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {

@@ -88,9 +88,9 @@
     <Compile Include="Models\MikeSourceModel.cs" />
     <Compile Include="Models\MikeSourceStartEndModel.cs" />
     <Compile Include="Models\MWQMLookupMPNModel.cs" />
-    <Compile Include="Models\MWQMPlanModel.cs" />
-    <Compile Include="Models\MWQMPlanSubsectorModel.cs" />
-    <Compile Include="Models\MWQMPlanSubsectorSiteModel.cs" />
+    <Compile Include="Models\SamplingPlanModel.cs" />
+    <Compile Include="Models\SamplingPlanSubsectorModel.cs" />
+    <Compile Include="Models\SamplingPlanSubsectorSiteModel.cs" />
     <Compile Include="Models\MWQMRunLanguageModel.cs" />
     <Compile Include="Models\MWQMRunModel.cs" />
     <Compile Include="Models\MWQMSampleLanguageModel.cs" />

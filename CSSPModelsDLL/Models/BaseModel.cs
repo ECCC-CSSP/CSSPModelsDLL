@@ -308,6 +308,7 @@ namespace CSSPModelsDLL.Models
         public string ApprovalDay { get; set; }
         public string ApprovedBySupervisorInitials { get; set; }
         public bool IncludeLaboratoryQAQC { get; set; }
+        public string BackupDirectory { get; set; }
 
         public List<LabSheetA1Measurement> LabSheetA1MeasurementList { get; set; }
 
