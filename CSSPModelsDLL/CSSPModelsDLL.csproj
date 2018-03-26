@@ -88,6 +88,7 @@
     <Compile Include="Models\MikeSourceModel.cs" />
     <Compile Include="Models\MikeSourceStartEndModel.cs" />
     <Compile Include="Models\MWQMLookupMPNModel.cs" />
+    <Compile Include="Models\SamplingPlanEmailModel.cs" />
     <Compile Include="Models\SamplingPlanModel.cs" />
     <Compile Include="Models\SamplingPlanSubsectorModel.cs" />
     <Compile Include="Models\SamplingPlanSubsectorSiteModel.cs" />
