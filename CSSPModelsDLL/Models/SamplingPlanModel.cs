@@ -35,6 +35,7 @@ namespace CSSPModelsDLL.Models
         public SampleMatrixEnum? SampleMatrixDefault { get; set; }
         public LaboratoryEnum? LaboratoryDefault { get; set; }
         public string BackupDirectory { get; set; }
+        public bool IsActive { get; set; }
         public List<SamplingPlanSubsectorModel> SamplingPlanSubsectorModelList { get; set; }
     }
 

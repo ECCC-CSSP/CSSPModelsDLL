@@ -16,6 +16,7 @@ namespace CSSPModelsDLL.Models
         public int SamplingPlanEmailID { get; set; }
         public int SamplingPlanID { get; set; }
         public string Email { get; set; }
+        public bool IsContractor { get; set; }
         public bool LabSheetHasValueOver500 { get; set; }
         public bool LabSheetReceived { get; set; }
         public bool LabSheetAccepted { get; set; }
