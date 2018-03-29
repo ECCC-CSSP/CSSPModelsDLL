@@ -565,6 +565,17 @@ namespace CSSPModelsDLL.Models
         public TVItemModelInfrastructureTypeTVItemLinkModel FlowTo { get; set; }
         public Nullable<int> SeeOtherTVItemID { get; set; }
     }
+    public class OpenDataStat
+    {
+        public OpenDataStat()
+        {
+        }
+
+        public string Error { get; set; }
+        public int TotalNumberOfSamples { get; set; }
+        public int NumberOfValidatedSamples { get; set; }
+        public int NumberOfSensitiveSamples { get; set; }
+    }
     public class TVItemTVAuth
     {
         public string Error { get; set; }
