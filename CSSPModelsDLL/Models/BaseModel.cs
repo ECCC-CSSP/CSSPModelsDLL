@@ -573,8 +573,7 @@ namespace CSSPModelsDLL.Models
 
         public string Error { get; set; }
         public int TotalNumberOfSamples { get; set; }
-        public int NumberOfValidatedSamples { get; set; }
-        public int NumberOfSensitiveSamples { get; set; }
+        public int NumberOfUseForOpenDataSamples { get; set; }
     }
     public class TVItemTVAuth
     {

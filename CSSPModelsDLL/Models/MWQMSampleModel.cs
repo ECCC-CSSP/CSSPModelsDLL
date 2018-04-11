@@ -29,8 +29,7 @@ namespace CSSPModelsDLL.Models
         public Nullable<int> Tube_1_0 { get; set; }
         public Nullable<int> Tube_0_1 { get; set; }
         public string ProcessedBy { get; set;}
-        public bool Validated { get; set; }
-        public bool IsSensitive { get; set; }
+        public bool UseForOpenData { get; set; }
         public string MWQMSampleNote { get; set; }
     }
 }

@@ -2138,7 +2138,7 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.AnimalBldgSingleWarehouse, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.AnimalBldgSingleCages, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.AnimalNumberPresentStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -2153,12 +2153,12 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.AnimalBldgMultipleWarehouse, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.AnimalBldgMultipleCages, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.AnimalNumberPresentStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.AnimalBldgMultipleBarn, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.AnimalBldgMultipleBarns, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.AnimalNumberPresentStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -9349,12 +9349,12 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.ImpactZoneYes, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.StatusStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.ImpactZonePotential, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SuggestedRiskStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.StatusStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
