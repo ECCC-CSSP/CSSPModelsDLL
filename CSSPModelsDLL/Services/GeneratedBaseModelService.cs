@@ -698,6 +698,11 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.HumanPollutionSingleFishPlant, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.HumanLocationStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.HumanPollutionMultipleResidences, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.HumanLocationStart,
             });
@@ -789,6 +794,11 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.HumanPollutionMultipleCommericalsM, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.HumanLocationStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.HumanPollutionSingleFishPlants, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.HumanLocationStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
