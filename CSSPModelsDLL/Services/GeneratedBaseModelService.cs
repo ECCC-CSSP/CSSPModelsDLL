@@ -1808,7 +1808,7 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.UrbanStormWater, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.UrbanAccumulatedFlow, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.SourcesOfContaminantStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -4133,6 +4133,11 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.PipeCountNumbeNoInformation, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.PathwayRouteSecondPipeStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.DiameterInCentimetersEqual15, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.PipeFlowStart,
             });
@@ -4988,7 +4993,7 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.RiskLow, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.RiskLowApproved, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
