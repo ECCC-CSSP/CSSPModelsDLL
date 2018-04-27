@@ -18,21 +18,21 @@ namespace CSSPModelsDLL.Models
         public string InfrastructureTVText { get; set; }
         public ScenarioStatusEnum VPScenarioStatus { get; set; }
         public Nullable<bool> UseAsBestEstimate { get; set; }
-        public double EffluentFlow_m3_s { get; set; }
-        public int EffluentConcentration_MPN_100ml { get; set; }
-        public double FroudeNumber { get; set; }
-        public double PortDiameter_m { get; set; }
-        public double PortDepth_m { get; set; }
-        public double PortElevation_m { get; set; }
-        public double VerticalAngle_deg { get; set; }
-        public double HorizontalAngle_deg { get; set; }
-        public int NumberOfPorts { get; set; }
-        public double PortSpacing_m { get; set; }
-        public double AcuteMixZone_m { get; set; }
-        public double ChronicMixZone_m { get; set; }
-        public double EffluentSalinity_PSU { get; set; }
-        public double EffluentTemperature_C { get; set; }
-        public double EffluentVelocity_m_s { get; set; }
+        public Nullable<double> EffluentFlow_m3_s { get; set; }
+        public Nullable<int> EffluentConcentration_MPN_100ml { get; set; }
+        public Nullable<double> FroudeNumber { get; set; }
+        public Nullable<double> PortDiameter_m { get; set; }
+        public Nullable<double> PortDepth_m { get; set; }
+        public Nullable<double> PortElevation_m { get; set; }
+        public Nullable<double> VerticalAngle_deg { get; set; }
+        public Nullable<double> HorizontalAngle_deg { get; set; }
+        public Nullable<int> NumberOfPorts { get; set; }
+        public Nullable<double> PortSpacing_m { get; set; }
+        public Nullable<double> AcuteMixZone_m { get; set; }
+        public Nullable<double> ChronicMixZone_m { get; set; }
+        public Nullable<double> EffluentSalinity_PSU { get; set; }
+        public Nullable<double> EffluentTemperature_C { get; set; }
+        public Nullable<double> EffluentVelocity_m_s { get; set; }
         //public string RawResults { get; set; }
     }
 }

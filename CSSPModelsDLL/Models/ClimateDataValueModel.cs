@@ -17,6 +17,7 @@ namespace CSSPModelsDLL.Models
         public System.DateTime DateTime_Local { get; set; }
         public bool Keep { get; set; }
         public StorageDataTypeEnum StorageDataType { get; set; }
+        public bool HasBeenRead { get; set; }
         public double? Snow_cm { get; set; }
         public Nullable<double> Rainfall_mm { get; set; }
         public Nullable<double> RainfallEntered_mm { get; set; }

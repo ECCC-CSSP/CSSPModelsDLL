@@ -413,6 +413,11 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.RiskConfirmationStart, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.RiskConfirmationStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.FollowUpStart, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
             });
@@ -1959,6 +1964,11 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TypesOfWildlifeMuskrat, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.AnimalLocationStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.TypesOfWildLifeDucksGeese, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.AnimalLocationStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -5004,31 +5014,36 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.RiskLow, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.RiskConfirmationStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.RiskModerate, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.RiskConfirmationStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.RiskHighNotConfirmed, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.RiskHighConfirmedVisual, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
-            });
-            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
-            {
-                PolSourceObsInfo = PolSourceObsInfoEnum.RishHighConfirmedWater, 
-                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
+                PolSourceObsInfo = PolSourceObsInfoEnum.RiskHigh, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.RiskConfirmationStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.RiskNotDetermined, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.RiskConfirmationNotConfirmed, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.RiskConfirmationConfirmedVisual, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.RiskConfirmationConfirmedWater, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FollowUpStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
