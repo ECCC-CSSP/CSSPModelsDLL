@@ -14,7 +14,7 @@ namespace CSSPModelsDLL.Models
         }
         public int TVFileID { get; set; }
         public int TVFileTVItemID { get; set; }
-        public TVTypeEnum TemplateTVType { get; set; }
+        public TVTypeEnum? TemplateTVType { get; set; }
         public int? ReportTypeID { get; set; }
         public string Parameters { get; set; }
         public int? Year { get; set; }
