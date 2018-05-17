@@ -713,6 +713,11 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.HumanPollutionSingleBeachPatio, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.HumanLocationStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.HumanPollutionMultipleResidences, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.HumanLocationStart,
             });
@@ -808,7 +813,12 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.HumanPollutionSingleFishPlants, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.HumanPollutionMultipleFishPlants, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.HumanLocationStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.HumanPollutionMultipleBeachPatios, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.HumanLocationStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -1935,6 +1945,11 @@ namespace CSSPModelsDLL.Services
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.TypesOfLivestockFurFarms, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.AnimalLocationStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.TypesOfLivestockDogs, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.RecreationStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
