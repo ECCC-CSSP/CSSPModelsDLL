@@ -2578,6 +2578,11 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.MarineLocationMudflat, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.MarineSourcesOfContaminantStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.WaterTypesOfMarineLifeShorelineBirds, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.MarineLocationStart,
             });
@@ -3593,6 +3598,21 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
+                PolSourceObsInfo = PolSourceObsInfoEnum.ShorelineRiparianGrassedZonePresent, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FlowThroughStructureStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.ShorelineRiparianGrassedZonePresentMed, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FlowThroughStructureStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.ShorelineRiparianGrassedZonePresentLow, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.FlowThroughStructureStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
                 PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughStructureCulvert, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
             });
@@ -3618,7 +3638,7 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.StructureInRoadNoStructure, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughNoStructure, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3648,7 +3668,7 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.StructureInRoadNoStructureMed, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughNoStructureMed, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3678,7 +3698,37 @@ namespace CSSPModelsDLL.Services
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
-                PolSourceObsInfo = PolSourceObsInfoEnum.StructureInRoadNoStructureLow, 
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughNoStructureLow, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughSaltwaterMarsh, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughSaltwaterMarshMed, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughSaltwaterMarshLow, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughBeaverDam, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughBeaverDamMed, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughBeaverDamLow, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.DistanceToWaterInMetersStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
@@ -3754,6 +3804,36 @@ namespace CSSPModelsDLL.Services
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
             {
                 PolSourceObsInfo = PolSourceObsInfoEnum.StructureInRoadNoStructureWaterCourseLow, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.WaterCourseDistStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughStructureSaltMarshWatercourse, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.WaterCourseDistStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughStructureSaltMarshWaterCourseMed, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.WaterCourseDistStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughStructureSaltMarshWaterCourseLow, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.WaterCourseDistStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughStructureBeaverDamWatercourse, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.WaterCourseDistStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughStructureBeaverDamWaterCourseMed, 
+                PolSourceObsInfoChildStart = PolSourceObsInfoEnum.WaterCourseDistStart,
+            });
+            polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
+            {
+                PolSourceObsInfo = PolSourceObsInfoEnum.FlowThroughStructureBeaverDamWaterCourseLow, 
                 PolSourceObsInfoChildStart = PolSourceObsInfoEnum.WaterCourseDistStart,
             });
             polSourceObsInfoChildList.Add(new PolSourceObsInfoChild()
