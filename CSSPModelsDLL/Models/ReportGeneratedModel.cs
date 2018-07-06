@@ -394,8 +394,8 @@ namespace CSSPModelsDLL.Models
         public Nullable<float> MWQM_Site_Stat_GM_X_Last_Samples { get; set; }
         public Nullable<float> MWQM_Site_Stat_Median_X_Last_Samples { get; set; }
         public Nullable<float> MWQM_Site_Stat_P90_X_Last_Samples { get; set; }
-        public Nullable<float> MWQM_Site_Stat_P90_Over_43_X_Last_Samples { get; set; }
-        public Nullable<float> MWQM_Site_Stat_P90_Over_260_X_Last_Samples { get; set; }
+        public Nullable<float> MWQM_Site_Stat_Perc_Over_43_X_Last_Samples { get; set; }
+        public Nullable<float> MWQM_Site_Stat_Perc_Over_260_X_Last_Samples { get; set; }
         public Nullable<int> MWQM_Site_Stat_Min_FC_X_Last_Samples { get; set; }
         public Nullable<int> MWQM_Site_Stat_Max_FC_X_Last_Samples { get; set; }
         public Nullable<int> MWQM_Site_Stat_Min_Year_X_Last_Samples { get; set; }
