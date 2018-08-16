@@ -21,7 +21,6 @@ namespace CSSPModelsDLL.Models
         public bool LabSheetReceived { get; set; }
         public bool LabSheetAccepted { get; set; }
         public bool LabSheetRejected { get; set; }
-        public bool FridayReminderAt14h { get; set; }
     }
 
 
