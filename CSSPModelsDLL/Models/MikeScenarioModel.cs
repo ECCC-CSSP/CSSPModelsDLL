@@ -30,6 +30,10 @@ namespace CSSPModelsDLL.Models
         public int ResultFrequency_min { get; set; }
         public double AmbientTemperature_C { get; set; }
         public double AmbientSalinity_PSU { get; set; }
+        public bool? GenerateDecouplingFiles { get; set; }
+        public bool? UseDecouplingFiles { get; set; }
+        public int? UseSalinityAndTemperatureInitialConditionFromTVFileTVItemID { get; set; }
+        public int? ForSimulatingMWQMRunTVItemID { get; set; }
         public double ManningNumber { get; set; }
         public Nullable<int> NumberOfElements { get; set; }
         public Nullable<int> NumberOfTimeSteps { get; set; }
