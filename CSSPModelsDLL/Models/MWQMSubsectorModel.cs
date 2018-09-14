@@ -65,14 +65,25 @@ namespace CSSPModelsDLL.Models
         public MWQMSubsectorClimateSites()
         {
             ClimateSiteModelUsedAndWithinDistanceModelList = new List<ClimateSiteWithLatLngAndOrdinalModel>();
-            //MWQMRunModelList = new List<MWQMRunModel>();
             Error = "";
         }
 
         public string Error { get; set; }
         public List<ClimateSiteWithLatLngAndOrdinalModel> ClimateSiteModelUsedAndWithinDistanceModelList { get; set; }
         public MWQMSubsectorWithLatLngModel MWQMSubsectorWithLatLngModel { get; set; }
-        //public List<MWQMRunModel> MWQMRunModelList { get; set; }
+    }
+
+    public class MWQMSubsectorHydrometricSites
+    {
+        public MWQMSubsectorHydrometricSites()
+        {
+            HydrometricSiteModelUsedAndWithinDistanceModelList = new List<HydrometricSiteWithLatLngAndOrdinalModel>();
+            Error = "";
+        }
+
+        public string Error { get; set; }
+        public List<HydrometricSiteWithLatLngAndOrdinalModel> HydrometricSiteModelUsedAndWithinDistanceModelList { get; set; }
+        public MWQMSubsectorWithLatLngModel MWQMSubsectorWithLatLngModel { get; set; }
     }
 
     public class MWQMSubsectorWithLatLngModel : MWQMSubsectorModel
@@ -98,9 +109,36 @@ namespace CSSPModelsDLL.Models
         public List<ClimateDataValueModel> ClimateDataValueModelList { get; set; }
     }
 
+    public class HydrometricSitesAndDischarges
+    {
+        public HydrometricSitesAndDischarges()
+        {
+            Error = "";
+            HydrometricDataValueModelList = new List<Models.HydrometricDataValueModel>();
+        }
+
+        public string Error { get; set; }
+        public HydrometricSiteModel HydrometricSiteModel { get; set; }
+        public List<HydrometricDataValueModel> HydrometricDataValueModelList { get; set; }
+    }
+
     public class ClimateSiteWithLatLngAndOrdinalModel : ClimateSiteModel
     {
         public ClimateSiteWithLatLngAndOrdinalModel()
+        {
+            YearsOfUseText = "";
+        }
+
+        public float Lat { get; set; }
+        public float Lng { get; set; }
+        public int Ordinal { get; set; }
+        public float Distance_km { get; set; }
+        public int MapInfoID { get; set; }
+        public string YearsOfUseText { get; set; }
+    }
+    public class HydrometricSiteWithLatLngAndOrdinalModel : HydrometricSiteModel
+    {
+        public HydrometricSiteWithLatLngAndOrdinalModel()
         {
             YearsOfUseText = "";
         }
@@ -123,9 +161,29 @@ namespace CSSPModelsDLL.Models
         public string YearsText { get; set; }
         public List<ClimateSiteUseStartEndYears> ClimateSiteUseStartEndYearList { get; set; }
     }
+    public class HydrometricSiteTVItemIDYearsText
+    {
+        public HydrometricSiteTVItemIDYearsText()
+        {
+            HydrometricSiteUseStartEndYearList = new List<HydrometricSiteUseStartEndYears>();
+        }
+
+        public int HydrometricSiteTVItemID { get; set; }
+        public string YearsText { get; set; }
+        public List<HydrometricSiteUseStartEndYears> HydrometricSiteUseStartEndYearList { get; set; }
+    }
     public class ClimateSiteUseStartEndYears
     {
         public ClimateSiteUseStartEndYears()
+        {
+        }
+
+        public int StartYear { get; set; }
+        public int? EndYear { get; set; }
+    }
+    public class HydrometricSiteUseStartEndYears
+    {
+        public HydrometricSiteUseStartEndYears()
         {
         }
 
@@ -141,6 +199,17 @@ namespace CSSPModelsDLL.Models
         }
 
         public string ClimateSiteText { get; set; }
+        public List<UseOfSiteModel> UseOfSiteModelList { get; set; }
+    }
+    public class HydrometricSiteUseOfSiteModel
+    {
+        public HydrometricSiteUseOfSiteModel()
+        {
+            HydrometricSiteText = "";
+            UseOfSiteModelList = new List<UseOfSiteModel>();
+        }
+
+        public string HydrometricSiteText { get; set; }
         public List<UseOfSiteModel> UseOfSiteModelList { get; set; }
     }
 }

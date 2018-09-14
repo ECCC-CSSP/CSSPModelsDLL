@@ -17,7 +17,9 @@ namespace CSSPModelsDLL.Models
         public System.DateTime DateTime_Local { get; set; }
         public bool Keep { get; set; }
         public StorageDataTypeEnum StorageDataType { get; set; }
-        public double Flow_m3_s { get; set; }
+        public bool HasBeenRead { get; set; }
+        public double? Flow_m3_s { get; set; }
+        public double? Level_m { get; set; }
         public string HourlyValues { get; set; }
     }
 }
