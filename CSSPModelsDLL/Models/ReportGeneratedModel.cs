@@ -1490,7 +1490,9 @@ namespace CSSPModelsDLL.Models
         public Nullable<DateTime> Subsector_Hydrometric_Site_Data_Date_Time_Local { get; set; }
         public Nullable<bool> Subsector_Hydrometric_Site_Data_Keep { get; set; }
         public Nullable<StorageDataTypeEnum> Subsector_Hydrometric_Site_Data_Storage_Data_Type { get; set; }
-        public Nullable<float> Subsector_Hydrometric_Site_Data_Flow_m3_s { get; set; }
+        public Nullable<float> Subsector_Hydrometric_Site_Data_Discharge_m3_s { get; set; }
+        public Nullable<float> Subsector_Hydrometric_Site_Data_DischargeEntered_m3_s { get; set; }
+        public Nullable<float> Subsector_Hydrometric_Site_Data_Level_m { get; set; }
         public string Subsector_Hydrometric_Site_Data_Hourly_Values { get; set; }
         public Nullable<DateTime> Subsector_Hydrometric_Site_Data_Last_Update_Date_UTC { get; set; }
         public string Subsector_Hydrometric_Site_Data_Last_Update_Contact_Name { get; set; }
@@ -2116,7 +2118,9 @@ namespace CSSPModelsDLL.Models
         public Nullable<DateTime> Hydrometric_Site_Data_Date_Time_Local { get; set; }
         public Nullable<bool> Hydrometric_Site_Data_Keep { get; set; }
         public Nullable<StorageDataTypeEnum> Hydrometric_Site_Data_Storage_Data_Type { get; set; }
-        public Nullable<float> Hydrometric_Site_Data_Flow_m3_s { get; set; }
+        public Nullable<float> Hydrometric_Site_Data_Discharge_m3_s { get; set; }
+        public Nullable<float> Hydrometric_Site_Data_DischargeEntered_m3_s { get; set; }
+        public Nullable<float> Hydrometric_Site_Data_Level_m { get; set; }
         public string Hydrometric_Site_Data_Hourly_Values { get; set; }
         public Nullable<DateTime> Hydrometric_Site_Data_Last_Update_Date_UTC { get; set; }
         public string Hydrometric_Site_Data_Last_Update_Contact_Name { get; set; }

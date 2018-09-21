@@ -10,7 +10,7 @@ namespace CSSPModelsDLL.Models
     public class MWQMRunModel : LastUpdateAndContactModel
     {
         public MWQMRunModel()
-        { 
+        {
         }
         public int MWQMRunID { get; set; }
         public int SubsectorTVItemID { get; set; }
@@ -56,17 +56,6 @@ namespace CSSPModelsDLL.Models
         public Nullable<double> RainDay8_mm { get; set; }
         public Nullable<double> RainDay9_mm { get; set; }
         public Nullable<double> RainDay10_mm { get; set; }
-        public Nullable<double> DischargeDay0_m3_s { get; set; }
-        public Nullable<double> DischargeDay1_m3_s { get; set; }
-        public Nullable<double> DischargeDay2_m3_s { get; set; }
-        public Nullable<double> DischargeDay3_m3_s { get; set; }
-        public Nullable<double> DischargeDay4_m3_s { get; set; }
-        public Nullable<double> DischargeDay5_m3_s { get; set; }
-        public Nullable<double> DischargeDay6_m3_s { get; set; }
-        public Nullable<double> DischargeDay7_m3_s { get; set; }
-        public Nullable<double> DischargeDay8_m3_s { get; set; }
-        public Nullable<double> DischargeDay9_m3_s { get; set; }
-        public Nullable<double> DischargeDay10_m3_s { get; set; }
         public Nullable<bool> RemoveFromStat { get; set; }
     }
 

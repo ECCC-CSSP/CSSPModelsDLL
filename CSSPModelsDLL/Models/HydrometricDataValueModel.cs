@@ -18,7 +18,8 @@ namespace CSSPModelsDLL.Models
         public bool Keep { get; set; }
         public StorageDataTypeEnum StorageDataType { get; set; }
         public bool HasBeenRead { get; set; }
-        public double? Flow_m3_s { get; set; }
+        public double? Discharge_m3_s { get; set; }
+        public double? DischargeEntered_m3_s { get; set; }
         public double? Level_m { get; set; }
         public string HourlyValues { get; set; }
     }

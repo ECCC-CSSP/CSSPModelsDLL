@@ -18,6 +18,10 @@ namespace CSSPModelsDLL.Models
         public bool IsContinuous { get; set; }
         public bool Include { get; set; }
         public bool IsRiver { get; set; }
+        public bool UseHydrometric { get; set; }
+        public int? HydrometricTVItemID { get; set; }
+        public double? DrainageArea_km2 { get; set; }
+        public double? Factor { get; set; }
         public string SourceNumberString { get; set; }
         public float Lat { get; set; }
         public float Lng { get; set; }
