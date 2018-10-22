@@ -216,6 +216,7 @@ namespace CSSPModelsDLL.Models
         public int StatMaxYear { get; set; }
         public string Coloring { get; set; }
         public string Letter { get; set; }
+        public DateTime? LastSampleDate { get; set; }
         public MWQMSiteLatestClassificationEnum MWQMSiteLatestClassification { get; set; }
     }
 }
