@@ -966,7 +966,7 @@ namespace CSSPModelsDLL.Models
         public Nullable<int> Box_Model_ID { get; set; }
         public Nullable<TranslationStatusEnum> Box_Model_Scenario_Name_Translation_Status { get; set; }
         public string Box_Model_Scenario_Name { get; set; }
-        public Nullable<float> Box_Model_Flow_m3_day { get; set; }
+        public Nullable<float> Box_Model_Discharge_m3_day { get; set; }
         public Nullable<float> Box_Model_Depth_m { get; set; }
         public Nullable<float> Box_Model_Temperature_C { get; set; }
         public Nullable<int> Box_Model_Dilution { get; set; }
@@ -975,7 +975,7 @@ namespace CSSPModelsDLL.Models
         public Nullable<int> Box_Model_FC_Pre_Disinfection_MPN_100_ml { get; set; }
         public Nullable<int> Box_Model_Concentration_MPN_100_ml { get; set; }
         public Nullable<float> Box_Model_T90_hour { get; set; }
-        public Nullable<float> Box_Model_Flow_Duration_hour { get; set; }
+        public Nullable<float> Box_Model_Discharge_Duration_hour { get; set; }
         public Nullable<DateTime> Box_Model_Last_Update_Date_UTC { get; set; }
         public string Box_Model_Last_Update_Contact_Name { get; set; }
         public string Box_Model_Last_Update_Contact_Initial { get; set; }
