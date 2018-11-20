@@ -52,6 +52,7 @@ namespace CSSPModelsDLL.Models
             FC = -1.0f;
             Salinity = -1.0f;
             Temperature = -1.0f;
+            TVLocation = new TVLocation();
             MIKEHydroResult = new MIKEHydroResult();
             MIKETransResult = new MIKETransResult();
         }
@@ -66,6 +67,7 @@ namespace CSSPModelsDLL.Models
         public float FC { get; set; }
         public float Salinity { get; set; }
         public float Temperature { get; set; }
+        public TVLocation TVLocation { get; set; }
         public MIKEHydroResult MIKEHydroResult { get; set; }
         public MIKETransResult MIKETransResult { get; set; }
     }
