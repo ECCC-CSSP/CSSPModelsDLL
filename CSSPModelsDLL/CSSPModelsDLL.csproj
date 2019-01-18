@@ -56,6 +56,8 @@
     <Compile Include="Models\EmailDistributionListLanguageModel.cs" />
     <Compile Include="Models\EmailDistributionListModel.cs" />
     <Compile Include="Models\ClassificationModel.cs" />
+    <Compile Include="Models\DroguePositionModel.cs" />
+    <Compile Include="Models\DrogueRunModel.cs" />
     <Compile Include="Models\MikeScenarioResultModel.cs" />
     <Compile Include="Models\MWQMSitePolSourceSiteModel.cs" />
     <Compile Include="Models\ReportSectionLanguageModel.cs" />
