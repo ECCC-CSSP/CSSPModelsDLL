@@ -17,7 +17,7 @@ namespace CSSPModelsDLL.Models
         public string SiteTVText { get; set; }
         public int SubsectorTVItemID { get; set; }
         public string SubsectorTVText { get; set; }
-        public SiteTypeEnum SiteType { get; set; }
+        public TVTypeEnum TVType { get; set; }
         public int Ordinal { get; set; }
         public int StartYear { get; set; }
         public Nullable<int> EndYear { get; set; }

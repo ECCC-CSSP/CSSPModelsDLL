@@ -85,6 +85,30 @@ namespace CSSPModelsDLL.Models
         public List<HydrometricSiteWithLatLngAndOrdinalModel> HydrometricSiteModelUsedAndWithinDistanceModelList { get; set; }
         public MWQMSubsectorWithLatLngModel MWQMSubsectorWithLatLngModel { get; set; }
     }
+    public class MWQMSubsectorTideSites
+    {
+        public MWQMSubsectorTideSites()
+        {
+            TideSiteModelUsedAndWithinDistanceModelList = new List<TideSiteWithLatLngAndOrdinalModel>();
+            Error = "";
+        }
+
+        public string Error { get; set; }
+        public List<TideSiteWithLatLngAndOrdinalModel> TideSiteModelUsedAndWithinDistanceModelList { get; set; }
+        public MWQMSubsectorWithLatLngModel MWQMSubsectorWithLatLngModel { get; set; }
+    }
+    public class MWQMSubsectorMunicipalities
+    {
+        public MWQMSubsectorMunicipalities()
+        {
+            MunicipalityModelUsedAndWithinDistanceModelList = new List<MunicipalityWithLatLngAndOrdinalModel>();
+            Error = "";
+        }
+
+        public string Error { get; set; }
+        public List<MunicipalityWithLatLngAndOrdinalModel> MunicipalityModelUsedAndWithinDistanceModelList { get; set; }
+        public MWQMSubsectorWithLatLngModel MWQMSubsectorWithLatLngModel { get; set; }
+    }
 
     public class MWQMSubsectorWithLatLngModel : MWQMSubsectorModel
     {
@@ -149,6 +173,32 @@ namespace CSSPModelsDLL.Models
         public float Distance_km { get; set; }
         public int MapInfoID { get; set; }
         public string YearsOfUseText { get; set; }
+    }
+    public class TideSiteWithLatLngAndOrdinalModel : TideSiteModel
+    {
+        public TideSiteWithLatLngAndOrdinalModel()
+        {
+        }
+
+        public float Lat { get; set; }
+        public float Lng { get; set; }
+        public int Ordinal { get; set; }
+        public float Distance_km { get; set; }
+        public int MapInfoID { get; set; }
+        public bool IsUsed { get; set; }
+    }
+    public class MunicipalityWithLatLngAndOrdinalModel : TVItemModel
+    {
+        public MunicipalityWithLatLngAndOrdinalModel()
+        {
+        }
+
+        public float Lat { get; set; }
+        public float Lng { get; set; }
+        public int Ordinal { get; set; }
+        public float Distance_km { get; set; }
+        public int MapInfoID { get; set; }
+        public bool IsUsed { get; set; }
     }
     public class ClimateSiteTVItemIDYearsText
     {

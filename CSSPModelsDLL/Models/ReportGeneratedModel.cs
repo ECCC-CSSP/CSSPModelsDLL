@@ -1576,8 +1576,9 @@ namespace CSSPModelsDLL.Models
         public Nullable<TranslationStatusEnum> Subsector_Tide_Site_Name_Translation_Status { get; set; }
         public string Subsector_Tide_Site_Name { get; set; }
         public Nullable<bool> Subsector_Tide_Site_Is_Active { get; set; }
-        public string Subsector_Tide_Site_Web_Tide_Model { get; set; }
-        public Nullable<float> Subsector_Tide_Site_Web_Tide_Datum_m { get; set; }
+        public string Subsector_Tide_Site_Province { get; set; }
+        public int Subsector_Tide_Site_sid { get; set; }
+        public int Subsector_Tide_Site_Zone { get; set; }
         public Nullable<DateTime> Subsector_Tide_Site_Last_Update_Date_And_Time_UTC { get; set; }
         public string Subsector_Tide_Site_Last_Update_Contact_Name { get; set; }
         public string Subsector_Tide_Site_Last_Update_Contact_Initial { get; set; }

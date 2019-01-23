@@ -13,8 +13,9 @@ namespace CSSPModelsDLL.Models
         }
         public int TideSiteID { get; set; }
         public int TideSiteTVItemID { get; set; }
-        public string TideSiteTVText { get; set; }
-        public string WebTideModel { get; set; }
-        public double WebTideDatum_m { get; set; }
+        public string TideSiteName { get; set; }
+        public string Province { get; set; }
+        public int sid { get; set; }
+        public int Zone { get; set; }
     }
 }
