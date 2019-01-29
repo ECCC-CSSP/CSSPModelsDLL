@@ -1626,8 +1626,8 @@ namespace CSSPModelsDLL.Models
         public Nullable<int> Subsector_Lab_Sheet_Month { get; set; }
         public Nullable<int> Subsector_Lab_Sheet_Day { get; set; }
         public string Subsector_Lab_Sheet_Access_Code { get; set; }
-        public Nullable<float> Subsector_Lab_Sheet_Daily_Duplicate_Precision_Criteria { get; set; }
-        public Nullable<float> Subsector_Lab_Sheet_Intertech_Duplicate_Precision_Criteria { get; set; }
+        public float Subsector_Lab_Sheet_Daily_Duplicate_Precision_Criteria { get; set; }
+        public float Subsector_Lab_Sheet_Intertech_Duplicate_Precision_Criteria { get; set; }
         public string Subsector_Lab_Sheet_Subsector_Name_Short { get; set; }
         public string Subsector_Lab_Sheet_Subsector_Name_Long { get; set; }
         public Nullable<SamplingPlanTypeEnum> Subsector_Lab_Sheet_Sampling_Plan_Type { get; set; }
