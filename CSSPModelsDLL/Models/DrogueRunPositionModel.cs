@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CSSPModelsDLL.Models
 {
-    public class DroguePositionModel : LastUpdateAndContactModel
+    public class DrogueRunPositionModel : LastUpdateAndContactModel
     {
-        public DroguePositionModel()
+        public DrogueRunPositionModel()
         {
         }
-        public int DroguePositionID { get; set; }
+        public int DrogueRunPositionID { get; set; }
         public int DrogueRunID { get; set; }
         public int Ordinal { get; set; }
         public double StepLat { get; set; }
