@@ -563,7 +563,7 @@ namespace CSSPModelsDLL.Models
         public InfrastructureTypeEnum InfrastructureType { get; set; }
         public List<TVItemLinkModel> TVItemModelLinkList { get; set; }
         public TVItemModelInfrastructureTypeTVItemLinkModel FlowTo { get; set; }
-        public Nullable<int> SeeOtherTVItemID { get; set; }
+        public Nullable<int> SeeOtherMunicipalityTVItemID { get; set; }
     }
     public class OpenDataStat
     {
