@@ -17,5 +17,6 @@ namespace CSSPModelsDLL.Models
         public int DrogueNumber { get; set; }
         public DrogueTypeEnum DrogueType { get; set; }
         public DateTime RunStartDateTime { get; set; }
+        public bool IsRisingTide { get; set; }
     }
 }
