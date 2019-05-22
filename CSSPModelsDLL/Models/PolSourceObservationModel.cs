@@ -21,5 +21,6 @@ namespace CSSPModelsDLL.Models
         public List<PolSourceObservationIssueModel> PolSourceObservationIssueModelList { get; set; }
         public int ContactTVItemID { get; set; }
         public string ContactTVText { get; set; }
+        public bool DesktopReviewed { get; set; }
     }
 }

@@ -124,6 +124,7 @@ namespace CSSPModelsDLL.Models
         public string FullDesc { get; set; }
         public List<string> IssuesTVTextList { get; set; }
         public DateTime ObsDateTime_Local { get; set; }
+        public bool DesktopReviewed { get; set; }
     }
     public class TVItemMoreInfoProvinceModel
     {
