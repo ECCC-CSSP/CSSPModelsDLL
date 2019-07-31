@@ -220,6 +220,20 @@ namespace CSSPModelsDLL.Models
         public MapInfoPointModel MapInfoPointModel { get; set; }
 
     }
+    public class LabSheetSiteMonitoredCounts
+    {
+        public LabSheetSiteMonitoredCounts()
+        {
+
+        }
+
+        public string Error { get; set; }
+        public int SamplingPlanID { get; set; }
+        public int LabSheetID { get; set; }
+        public int SamplingPlanSubsectorSiteCount { get; set; }
+        public int LabSheetSiteRoutineCount { get; set; }
+        public bool LabSheetHasDuplicate { get; set; }
+    }
     public class LabSheetA1Sheet
     {
         public LabSheetA1Sheet()
