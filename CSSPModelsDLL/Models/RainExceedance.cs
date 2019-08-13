@@ -12,16 +12,16 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int RainExceedanceID { get; set; }
-        public bool YearRound { get; set; }
-        public Nullable<DateTime> StartDate_Local { get; set; }
-        public Nullable<DateTime> EndDate_Local { get; set; }
+        public int RainExceedanceTVItemID { get; set; }
+        public string RainExceedanceName { get; set; }
+        public Nullable<int> StartMonth { get; set; }
+        public Nullable<int> StartDay { get; set; }
+        public Nullable<int> EndMonth { get; set; }
+        public Nullable<int> EndDay { get; set; }
         public Nullable<float> RainMaximum_mm { get; set; }
-        public Nullable<float> RainExtreme_mm { get; set; }
-        public int DaysPriorToStart { get; set; }
-        public bool RepeatEveryYear { get; set; }
-        public string ProvinceTVItemIDs { get; set; }
-        public string SubsectorTVItemIDs { get; set; }
-        public string ClimateSiteTVItemIDs { get; set; }
-        public string EmailDistributionListIDs { get; set; }
+        public Nullable<int> StakeholdersEmailDistributionListID { get; set; }
+        public string StakeholdersEmailDistributionListName { get; set; }
+        public Nullable<int> OnlyStaffEmailDistributionListID { get; set; }
+        public string OnlyStaffEmailDistributionListName { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace CSSPModelsDLL.Models
         public int ClimateSiteID { get; set; }
         public int ClimateSiteTVItemID { get; set; }
         public string ClimateSiteTVText { get; set; }
-        public int ECDBID { get; set; }
+        public Nullable<int> ECDBID { get; set; }
         public string ClimateSiteName { get; set; }
         public string Province { get; set; }
         public Nullable<double> Elevation_m { get; set; }
@@ -23,6 +23,7 @@ namespace CSSPModelsDLL.Models
         public string TCID { get; set; }
         public Nullable<bool> IsProvincial { get; set; }
         public string ProvSiteID { get; set; }
+        public Nullable<bool> IsCoCoRaHS { get; set; }
         public Nullable<double> TimeOffset_hour { get; set; }
         public string File_desc { get; set; }
         public Nullable<System.DateTime> HourlyStartDate_Local { get; set; }
