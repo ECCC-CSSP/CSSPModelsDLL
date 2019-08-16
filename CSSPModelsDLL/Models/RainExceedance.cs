@@ -23,6 +23,7 @@ namespace CSSPModelsDLL.Models
         public string StakeholdersEmailDistributionListName { get; set; }
         public Nullable<int> OnlyStaffEmailDistributionListID { get; set; }
         public string OnlyStaffEmailDistributionListName { get; set; }
+        public bool IsActive { get; set; }
         public double Lat { get; set; }
         public double Lng { get; set; }
     }

@@ -13,7 +13,21 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int RainExceedanceClimateSiteID { get; set; }
-        public int RainExceedanceID { get; set; }
-        public int ClimateSiteID { get; set; }
+        public int RainExceedanceTVItemID { get; set; }
+        public int ClimateSiteTVItemID { get; set; }
+    }
+
+    public class RainExceedanceFullClimateSites
+    {
+        public RainExceedanceFullClimateSites()
+        {
+            ClimateSiteModelUsedAndWithinDistanceModelList = new List<ClimateSiteWithLatLngAndOrdinalModel>();
+            CurrentlyUsedClimateSiteTVItemIDList = new List<int>();
+        }
+
+        public string Error { get; set; }
+        public List<ClimateSiteWithLatLngAndOrdinalModel> ClimateSiteModelUsedAndWithinDistanceModelList { get; set; }
+        public List<int> CurrentlyUsedClimateSiteTVItemIDList { get; set; }
+        public RainExceedanceModel RainExceedanceModel { get; set; }
     }
 }
