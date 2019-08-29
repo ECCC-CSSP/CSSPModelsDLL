@@ -54,6 +54,8 @@
     <Compile Include="Models\EmailDistributionListContactLanguageModel.cs" />
     <Compile Include="Models\EmailDistributionListContactModel.cs" />
     <Compile Include="Models\EmailDistributionListLanguageModel.cs" />
+    <Compile Include="Models\PolSourceSiteEffectTermModel.cs" />
+    <Compile Include="Models\PolSourceSiteEffectModel.cs" />
     <Compile Include="Models\RainExceedanceClimateSiteModel.cs" />
     <Compile Include="Models\EmailDistributionListModel.cs" />
     <Compile Include="Models\ClassificationModel.cs" />
