@@ -15,7 +15,7 @@ namespace CSSPModelsDLL.Models
         }
         public int PolSourceSiteEffectID { get; set; }
         public int PolSourceSiteTVItemID { get; set; }
-        public int MWQMSiteTVItemID { get; set; }
+        public int MWQMSiteOrInfrastructureTVItemID { get; set; }
         public string PolSourceSiteEffectTermIDs { get; set; }
         public string Comments { get; set; }
         public Nullable<int> Site { get; set; }
