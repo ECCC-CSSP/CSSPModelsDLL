@@ -18,6 +18,7 @@ namespace CSSPModelsDLL.Models
         public int MWQMRunTVItemID { get; set; }
         public string MWQMRunTVText { get; set; }
         public System.DateTime SampleDateTime_Local { get; set; }
+        public string TimeText { get; set; }
         public Nullable<double> Depth_m { get; set; }
         public int FecCol_MPN_100ml { get; set; }
         public Nullable<double> Salinity_PPT { get; set; }
