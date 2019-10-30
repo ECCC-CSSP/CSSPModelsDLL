@@ -1397,8 +1397,7 @@ namespace CSSPModelsDLL.Models
         public string Subsector_Climate_Site_Climate_ID { get; set; }
         public Nullable<int> Subsector_Climate_Site_WMOID { get; set; }
         public string Subsector_Climate_Site_TCID { get; set; }
-        public Nullable<bool> Subsector_Climate_Site_Is_Provincial { get; set; }
-        public string Subsector_Climate_Site_Prov_Site_ID { get; set; }
+        public Nullable<bool> Subsector_Climate_Site_Is_Quebec_Site { get; set; }
         public Nullable<float> Subsector_Climate_Site_Time_Offset_hour { get; set; }
         public string Subsector_Climate_Site_File_desc { get; set; }
         public Nullable<DateTime> Subsector_Climate_Site_Hourly_Start_Date_Local { get; set; }
@@ -2026,8 +2025,7 @@ namespace CSSPModelsDLL.Models
         public string Climate_Site_Climate_ID { get; set; }
         public Nullable<int> Climate_Site_WMOID { get; set; }
         public string Climate_Site_TCID { get; set; }
-        public Nullable<bool> Climate_Site_Is_Provincial { get; set; }
-        public string Climate_Site_Prov_Site_ID { get; set; }
+        public Nullable<bool> Climate_Site_Is_Quebec_Site { get; set; }
         public Nullable<float> Climate_Site_Time_Offset_hour { get; set; }
         public string Climate_Site_File_desc { get; set; }
         public Nullable<DateTime> Climate_Site_Hourly_Start_Date_Local { get; set; }
