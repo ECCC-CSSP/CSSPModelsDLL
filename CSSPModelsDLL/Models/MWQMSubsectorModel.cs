@@ -159,6 +159,8 @@ namespace CSSPModelsDLL.Models
         public float Distance_km { get; set; }
         public int MapInfoID { get; set; }
         public string YearsOfUseText { get; set; }
+        public float CoCoRaHSSampleTimeAverage { get; set; }
+        public float CoCoRaHSSamplesPerWeek { get; set; } 
     }
     public class HydrometricSiteWithLatLngAndOrdinalModel : HydrometricSiteModel
     {
