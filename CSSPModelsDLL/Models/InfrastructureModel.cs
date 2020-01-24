@@ -23,6 +23,7 @@ namespace CSSPModelsDLL.Models
         public string InfrastructureCategory { get; set; }
         public Nullable<InfrastructureTypeEnum> InfrastructureType { get; set; }
         public Nullable<FacilityTypeEnum> FacilityType { get; set; }
+        public Nullable<bool> HasBackupPower { get; set; }
         public Nullable<bool> IsMechanicallyAerated { get; set; }
         public Nullable<int> NumberOfCells { get; set; }
         public Nullable<int> NumberOfAeratedCells { get; set; }
@@ -40,6 +41,7 @@ namespace CSSPModelsDLL.Models
         public Nullable<double> PeakFlow_m3_day { get; set; }
         public Nullable<int> PopServed { get; set; }
         public Nullable<bool> CanOverflow { get; set; }
+        public Nullable<ValveTypeEnum> ValveType { get; set; }
         public Nullable<double> PercFlowOfTotal { get; set; }
         public Nullable<double> TimeOffset_hour { get; set; }
         public string TempCatchAllRemoveLater { get; set; }
