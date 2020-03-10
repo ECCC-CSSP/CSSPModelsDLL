@@ -16,6 +16,7 @@ namespace CSSPModelsDLL.Models
         public TVTypeEnum TVType { get; set; }
         public FileTypeEnum FileType { get; set; }
         public string UniqueCode { get; set; }
+        public LanguageEnum Language { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public string StartOfFileName { get; set; }

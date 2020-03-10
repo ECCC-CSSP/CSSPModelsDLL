@@ -15,6 +15,7 @@ namespace CSSPModelsDLL.Models
         public int ReportSectionID { get; set; }
         public int ReportTypeID { get; set; }
         public int? TVItemID { get; set; }
+        public LanguageEnum Language { get; set; }
         public int Ordinal { get; set; }
         public bool IsStatic { get; set; }
         public int? ParentReportSectionID { get; set; }
