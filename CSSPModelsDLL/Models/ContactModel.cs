@@ -33,6 +33,7 @@ namespace CSSPModelsDLL.Models
         public bool IsAdmin { get; set; }
         public bool IsNew { get; set; }
         public string SamplingPlanner_ProvincesTVItemID { get; set; }
+        public string Token { get; set; }
         public bool EmailValidated { get; set; }
         public bool Disabled { get; set; }
         public string OccupationOrRoleText { get; set; }
