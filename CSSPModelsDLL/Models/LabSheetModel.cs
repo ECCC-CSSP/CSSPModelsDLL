@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
         }
 
         public int LabSheetID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int OtherServerLabSheetID { get; set; }
         public int SamplingPlanID { get; set; }
         public string SamplingPlanName { get; set; }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSSPEnumsDLL.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int MikeSourceStartEndID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int MikeSourceID { get; set; }
         public System.DateTime StartDateAndTime_Local { get; set; }
         public System.DateTime EndDateAndTime_Local { get; set; }

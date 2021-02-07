@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
         }
 
         public int SamplingPlanEmailID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int SamplingPlanID { get; set; }
         public string Email { get; set; }
         public bool IsContractor { get; set; }

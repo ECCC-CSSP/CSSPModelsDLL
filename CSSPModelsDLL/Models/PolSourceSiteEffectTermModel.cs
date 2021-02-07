@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int PolSourceSiteEffectTermID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public bool IsGroup { get; set; }
         public Nullable<int> UnderGroupID { get; set; }
         public string EffectTermEN { get; set; }

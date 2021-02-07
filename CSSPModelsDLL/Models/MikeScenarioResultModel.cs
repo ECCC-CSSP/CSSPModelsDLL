@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int MikeScenarioResultID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int MikeScenarioTVItemID { get; set; }
         public string MikeScenarioTVText { get; set; }
         public string MikeResultsJSON { get; set; }

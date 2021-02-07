@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int EmailDistributionListContactLanguageID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int EmailDistributionListContactID { get; set; }
         public LanguageEnum Language { get; set; }
         public string Agency { get; set; }

@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int ContactPreferenceID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int ContactID { get; set; }
         public TVTypeEnum TVType { get; set; }
         public int MarkerSize { get; set; }

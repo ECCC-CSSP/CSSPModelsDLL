@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int MWQMRunID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int SubsectorTVItemID { get; set; }
         public string SubsectorTVText { get; set; }
         public int MWQMRunTVItemID { get; set; }

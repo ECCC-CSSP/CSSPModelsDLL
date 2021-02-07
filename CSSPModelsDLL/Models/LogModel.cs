@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
         }
 
         public int LogID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public string TableName { get; set; }
         public int ID { get; set; }
         public LogCommandEnum LogCommand { get; set; }

@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int RainExceedanceClimateSiteID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int RainExceedanceTVItemID { get; set; }
         public int ClimateSiteTVItemID { get; set; }
     }

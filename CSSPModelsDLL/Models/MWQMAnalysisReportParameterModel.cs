@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int MWQMAnalysisReportParameterID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int SubsectorTVItemID { get; set; }
         public string AnalysisName { get; set; }
         public int? AnalysisReportYear { get; set; }

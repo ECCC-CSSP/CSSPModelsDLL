@@ -15,6 +15,7 @@ namespace CSSPModelsDLL.Models
         }
 
         public int SamplingPlanID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public string SamplingPlanName { get; set; }
         public string ForGroupName { get; set; }
         public SampleTypeEnum SampleType { get; set; }

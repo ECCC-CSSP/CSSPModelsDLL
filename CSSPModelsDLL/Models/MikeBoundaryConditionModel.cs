@@ -15,6 +15,7 @@ namespace CSSPModelsDLL.Models
         }
 
         public int MikeBoundaryConditionID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int MikeBoundaryConditionTVItemID { get; set; }
         public string MikeBoundaryConditionTVText { get; set; }
         public string MikeBoundaryConditionCode { get; set; }

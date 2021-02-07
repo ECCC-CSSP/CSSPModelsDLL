@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSSPEnumsDLL.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace CSSPModelsDLL.Models
             MikeSourceStartEndModelList = new List<MikeSourceStartEndModel>();
         }
         public int MikeSourceID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int MikeSourceTVItemID { get; set; }
         public string MikeSourceTVText { get; set; }
         public bool IsContinuous { get; set; }

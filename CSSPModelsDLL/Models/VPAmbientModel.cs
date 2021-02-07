@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSSPEnumsDLL.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int VPAmbientID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int VPScenarioID { get; set; }
         public int Row { get; set; }
         public Nullable<double> MeasurementDepth_m { get; set; }

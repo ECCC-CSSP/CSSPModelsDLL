@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int TideDataValueID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int TideSiteTVItemID { get; set; }
         public System.DateTime DateTime_Local { get; set; }
         public bool Keep { get; set; }

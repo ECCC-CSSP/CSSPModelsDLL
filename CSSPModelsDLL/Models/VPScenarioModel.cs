@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int VPScenarioID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public string VPScenarioName { get; set; }
         public int InfrastructureTVItemID { get; set; }
         public string InfrastructureTVText { get; set; }

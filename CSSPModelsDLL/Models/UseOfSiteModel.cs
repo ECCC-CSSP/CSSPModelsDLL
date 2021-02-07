@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int UseOfSiteID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int SiteTVItemID { get; set; }
         public string SiteTVText { get; set; }
         public int SubsectorTVItemID { get; set; }

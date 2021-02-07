@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int EmailID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int EmailTVItemID { get; set; }
         public string EmailAddress { get; set; }
         public EmailTypeEnum EmailType { get; set; }

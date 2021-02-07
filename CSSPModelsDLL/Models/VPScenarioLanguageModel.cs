@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int VPScenarioLanguageID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int VPScenarioID { get; set; }
         public LanguageEnum Language { get; set; }
         public string VPScenarioName { get; set; }

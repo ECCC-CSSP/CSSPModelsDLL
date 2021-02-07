@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
             PolSourceSiteEffectTermModelList = new List<PolSourceSiteEffectTermModel>();
         }
         public int PolSourceSiteEffectID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int PolSourceSiteOrInfrastructureTVItemID { get; set; }
         public int MWQMSiteTVItemID { get; set; }
         public string PolSourceSiteEffectTermIDs { get; set; }

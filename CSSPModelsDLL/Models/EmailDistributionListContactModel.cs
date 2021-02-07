@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int EmailDistributionListContactID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int EmailDistributionListID { get; set; }
         public bool IsCC { get; set; }
         public string Agency { get; set; }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSSPEnumsDLL.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int CoCoRaHSSiteID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public string StationNumber { get; set; }
         public string StationName { get; set; }
         public double Latitude { get; set; }

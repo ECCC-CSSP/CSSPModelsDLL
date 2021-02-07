@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int MapInfoID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int TVItemID { get; set; }
         public TVTypeEnum TVType { get; set; }
         public double LatMin { get; set; }

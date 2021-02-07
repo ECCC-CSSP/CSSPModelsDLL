@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int TVFileID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int TVFileTVItemID { get; set; }
         public TVTypeEnum? TemplateTVType { get; set; }
         public int? ReportTypeID { get; set; }

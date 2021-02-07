@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int InfrastructureID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int InfrastructureTVItemID { get; set; }
         public string InfrastructureTVText { get; set; }
         public Nullable<int> PrismID { get; set; }

@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
         }
 
         public int LabSheetTubeMPNDetailID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int LabSheetDetailID { get; set; }
         public int Ordinal { get; set; }
         public int MWQMSiteTVItemID { get; set; }

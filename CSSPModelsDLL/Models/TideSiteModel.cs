@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSSPEnumsDLL.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int TideSiteID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int TideSiteTVItemID { get; set; }
         public string TideSiteName { get; set; }
         public string Province { get; set; }

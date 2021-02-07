@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSSPEnumsDLL.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,7 @@ namespace CSSPModelsDLL.Models
         }
         
         public int BoxModelID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public string ScenarioName { get; set; }
         public int InfrastructureTVItemID { get; set; }
         public double Discharge_m3_day { get; set; }

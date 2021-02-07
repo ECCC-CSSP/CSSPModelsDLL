@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int TelID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int TelTVItemID { get; set; }
         public string TelNumber { get; set; }
         public TelTypeEnum TelType { get; set; }

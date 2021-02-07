@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int AppTaskLanguageID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int AppTaskID { get; set; }
         public LanguageEnum Language { get; set; }
         public string StatusText { get; set; }

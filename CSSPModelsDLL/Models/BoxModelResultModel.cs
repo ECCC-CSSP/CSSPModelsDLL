@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int BoxModelResultID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int BoxModelID { get; set; }
         public BoxModelResultTypeEnum BoxModelResultType { get; set; }
         public double Volume_m3 { get; set; }

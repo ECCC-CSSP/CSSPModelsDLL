@@ -22,6 +22,7 @@ namespace CSSPModelsDLL.Models
             AddressList = new List<AddressModel>();
         }
         public int ContactID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public string Id { get; set; }
         public int ContactTVItemID { get; set; }
         public string LoginEmail { get; set; }

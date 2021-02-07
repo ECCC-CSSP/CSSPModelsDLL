@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int MWQMRunLanguageID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int MWQMRunID { get; set; }
         public LanguageEnum Language { get; set; }
         public string RunComment { get; set; }

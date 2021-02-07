@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSSPEnumsDLL.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace CSSPModelsDLL.Models
             PolSourceObservationIssueModelList = new List<PolSourceObservationIssueModel>();
         }
         public int PolSourceObservationID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int PolSourceSiteID { get; set; }
         public int PolSourceSiteTVItemID { get; set; }
         public string PolSourceSiteTVText { get; set; }

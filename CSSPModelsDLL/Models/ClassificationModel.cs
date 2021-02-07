@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int ClassificationID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int ClassificationTVItemID { get; set; }
         public string ClassificationTVText { get; set; }
         public ClassificationTypeEnum ClassificationType { get; set; }

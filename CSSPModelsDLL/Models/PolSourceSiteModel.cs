@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
             PolSourceObservationModelList = new List<PolSourceObservationModel>();
         }
         public int PolSourceSiteID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int PolSourceSiteTVItemID { get; set; }
         public string PolSourceSiteTVText { get; set; }
         public string Temp_Locator_CanDelete { get; set; }

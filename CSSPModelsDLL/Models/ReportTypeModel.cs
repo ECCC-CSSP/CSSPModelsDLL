@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int ReportTypeID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public TVTypeEnum TVType { get; set; }
         public FileTypeEnum FileType { get; set; }
         public string UniqueCode { get; set; }

@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int InfrastructureLanguageID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int InfrastructureID { get; set; }
         public LanguageEnum Language { get; set; }
         public string Comment { get; set; }

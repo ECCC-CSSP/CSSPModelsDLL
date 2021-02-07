@@ -13,6 +13,7 @@ namespace CSSPModelsDLL.Models
         {
         }
         public int DrogueRunID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int SubsectorTVItemID { get; set; }
         public int DrogueNumber { get; set; }
         public DrogueTypeEnum DrogueType { get; set; }

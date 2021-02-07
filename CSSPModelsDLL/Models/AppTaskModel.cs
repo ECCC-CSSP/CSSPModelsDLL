@@ -14,6 +14,7 @@ namespace CSSPModelsDLL.Models
         }
 
         public int AppTaskID { get; set; }
+        public DBCommandEnum DBCommand { get; set; }
         public int TVItemID { get; set; }
         public string TVItemIDTVText { get; set; }
         public int TVItemID2 { get; set; }
