@@ -29,16 +29,18 @@ namespace CSSPModelsDLL.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Initial { get; set; }
+        public string CellNumber { get; set; }
+        public Nullable<bool> CellNumberConfirmed { get; set; }
         public string WebName { get; set; }
         public Nullable<ContactTitleEnum> ContactTitle { get; set; }
         public bool IsAdmin { get; set; }
-        public bool IsNew { get; set; }
-        public string SamplingPlanner_ProvincesTVItemID { get; set; }
-        public string Token { get; set; }
         public bool EmailValidated { get; set; }
         public bool Disabled { get; set; }
-        public string OccupationOrRoleText { get; set; }
-        public Nullable<int> OccupationOrRoleTVItemID { get; set; }
+        public bool IsNew { get; set; }
+        public string SamplingPlanner_ProvincesTVItemID { get; set; }
+        public string PasswordHash { get; set; }
+        public string Token { get; set; }
+        public Nullable<int> AccessFailedCount { get; set; }
         public List<EmailModel> EmailList { get; set; }
         public List<TelModel> TelList { get; set; }
         public List<AddressModel> AddressList { get; set; }
