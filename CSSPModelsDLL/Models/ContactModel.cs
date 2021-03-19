@@ -40,6 +40,8 @@ namespace CSSPModelsDLL.Models
         public string SamplingPlanner_ProvincesTVItemID { get; set; }
         public string PasswordHash { get; set; }
         public string Token { get; set; }
+        public bool? HasInternetConnection { get; set; }
+        public string GoogleMapKeyHash { get; set; }
         public Nullable<int> AccessFailedCount { get; set; }
         public List<EmailModel> EmailList { get; set; }
         public List<TelModel> TelList { get; set; }
