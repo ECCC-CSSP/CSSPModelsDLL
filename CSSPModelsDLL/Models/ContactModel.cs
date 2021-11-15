@@ -43,6 +43,7 @@ namespace CSSPModelsDLL.Models
         public bool? HasInternetConnection { get; set; }
         public bool? IsLoggedIn { get; set; }
         public string GoogleMapKeyHash { get; set; }
+        public string AzureStoreHash { get; set; }
         public Nullable<int> AccessFailedCount { get; set; }
         public List<EmailModel> EmailList { get; set; }
         public List<TelModel> TelList { get; set; }
