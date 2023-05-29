@@ -88,6 +88,8 @@ namespace CSSPModelsDLL.Models
         public Nullable<double> Tide_h28_m { get; set; }
         public Nullable<double> Tide_h29_m { get; set; }
         public Nullable<double> Tide_h30_m { get; set; }
+        public Nullable<TideTextEnum> Tide_Start_From_WebTide { get; set; }
+        public Nullable<TideTextEnum> Tide_End_From_WebTide { get; set; }
         public Nullable<bool> RemoveFromStat { get; set; }
     }
 
