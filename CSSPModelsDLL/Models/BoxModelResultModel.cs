@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CSSPModelsDLL.Models;
-using CSSPEnumsDLL.Enums;
+﻿using CSSPEnumsDLL.Enums;
+using System;
 
 namespace CSSPModelsDLL.Models
 {

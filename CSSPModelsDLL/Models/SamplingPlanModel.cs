@@ -1,9 +1,5 @@
-﻿using System;
+﻿using CSSPEnumsDLL.Enums;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CSSPEnumsDLL.Enums;
 
 namespace CSSPModelsDLL.Models
 {
@@ -40,5 +36,5 @@ namespace CSSPModelsDLL.Models
         public List<SamplingPlanSubsectorModel> SamplingPlanSubsectorModelList { get; set; }
     }
 
-    
+
 }
