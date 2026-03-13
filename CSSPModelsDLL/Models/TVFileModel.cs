@@ -1,9 +1,4 @@
 ﻿using CSSPEnumsDLL.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSSPModelsDLL.Models
 {
@@ -31,6 +26,8 @@ namespace CSSPModelsDLL.Models
         public string ClientFilePath { get; set; }
         public string ServerFileName { get; set; }
         public string ServerFilePath { get; set; }
+        public string FullServerFilePath { get; set; }
+        public string FullFilePath { get; set; }
     }
 
 }

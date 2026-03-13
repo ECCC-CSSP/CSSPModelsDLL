@@ -1,9 +1,6 @@
 ﻿using CSSPEnumsDLL.Enums;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSSPModelsDLL.Models
 {
@@ -30,7 +27,7 @@ namespace CSSPModelsDLL.Models
         public Nullable<int> Tube_10 { get; set; }
         public Nullable<int> Tube_1_0 { get; set; }
         public Nullable<int> Tube_0_1 { get; set; }
-        public string ProcessedBy { get; set;}
+        public string ProcessedBy { get; set; }
         public bool UseForOpenData { get; set; }
         public string MWQMSampleNote { get; set; }
     }

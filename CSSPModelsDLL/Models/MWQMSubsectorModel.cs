@@ -1,9 +1,5 @@
 ﻿using CSSPEnumsDLL.Enums;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSSPModelsDLL.Models
 {
@@ -162,7 +158,7 @@ namespace CSSPModelsDLL.Models
         public int MapInfoID { get; set; }
         public string YearsOfUseText { get; set; }
         public float CoCoRaHSSampleTimeAverage { get; set; }
-        public float CoCoRaHSSamplesPerWeek { get; set; } 
+        public float CoCoRaHSSamplesPerWeek { get; set; }
     }
     public class HydrometricSiteWithLatLngAndOrdinalModel : HydrometricSiteModel
     {
@@ -209,7 +205,7 @@ namespace CSSPModelsDLL.Models
         public ClimateSiteTVItemIDYearsText()
         {
             ClimateSiteUseStartEndYearList = new List<ClimateSiteUseStartEndYears>();
-           }
+        }
 
         public int ClimateSiteTVItemID { get; set; }
         public string YearsText { get; set; }

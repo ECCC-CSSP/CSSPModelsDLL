@@ -1,9 +1,5 @@
 ﻿using CSSPEnumsDLL.Enums;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSSPModelsDLL.Models
 {
@@ -13,7 +9,7 @@ namespace CSSPModelsDLL.Models
         {
             BoxModelResultModelList = new List<BoxModelResultModel>();
         }
-        
+
         public int BoxModelID { get; set; }
         public DBCommandEnum DBCommand { get; set; }
         public string ScenarioName { get; set; }

@@ -1,9 +1,5 @@
 ﻿using CSSPEnumsDLL.Enums;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSSPModelsDLL.Models
 {
@@ -33,7 +29,7 @@ namespace CSSPModelsDLL.Models
         public string FileName { get; set; }
         public DateTime FileLastModifiedDate_Local { get; set; }
         public string FileContent { get; set; }
-        public Nullable<int> AcceptedOrRejectedByContactTVItemID {get; set;}
+        public Nullable<int> AcceptedOrRejectedByContactTVItemID { get; set; }
         public string AcceptedOrRejectedByContactTVText { get; set; }
         public Nullable<DateTime> AcceptedOrRejectedDateTime { get; set; }
         public string RejectReason { get; set; }
